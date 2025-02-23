@@ -1,4 +1,3 @@
-const { GoatWrapper } = require("fca-liane-utils");
 const e = require("axios"),
 	a = require("fs"),
 	t = require("path");
@@ -82,5 +81,3 @@ module.exports.onStart = async function({
 		console.error("Error:", d.message), o.setMessageReaction("\u274C", s.messageID, (() => {}), !0);
 	}
 };
-const wrapper = new GoatWrapper(module.exports);
-wrapper.applyNoPrefix({ allowPrefix: true });
