@@ -24,7 +24,7 @@ const { GoatWrapper } = require("fca-liane-utils");
 
  const topUsersList = topUsers.map((user, index) => `${index + 1}. ${user.name}: ${user.money}`);
 
- const messageText = `Top 15 Richest Users:\n${topUsersList.join('\n')}`;
+ const messageText = `〲Top 15 Richest Users:\n${topUsersList.join('\n')}`;
 
  message.reply(messageText);
  }
